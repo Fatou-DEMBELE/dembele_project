@@ -1,15 +1,16 @@
-1.PROJECT TİTLE.
+## Getting Start1.PROJECT TİTLE.
+##1.PROJECT TİTLE.
 Library Tracker
-2.PROBLEM STATEMENT:
+##2.PROBLEM STATEMENT:
 How can we display and manage a list of books in a simple mobil application?
-3.OBJECTİVE OF THE PROJECT:
+3##.OBJECTİVE OF THE PROJECT:
 The project aims to design a flutter mobile application that allows users to
 -Add and remove books,
 -Track borrowed and available books,
 -View a list of books and their status.
-4.EXPECTED OUTCOME:
+##4.EXPECTED OUTCOME:
 A working flutter application that demonstrates book management with an interactive user interface, ready to run an Android device or simulator
-5.METHODOLOGY:
+##5.METHODOLOGY:
 Approch to problem solving:
 start the application
 the main screen automatically displays the list of books 
@@ -26,7 +27,7 @@ The book object contains:
 -Status
 The data is loaded once when the app starts
 No user interaction changrs the data;it is only displayed
-7.EXANPLE CONTROL FLOW(Library Tracker):
+##7.EXANPLE CONTROL FLOW(Library Tracker):
 -start the app
 -load the predefined list of books
 -display the main screen
@@ -39,7 +40,7 @@ load book list
 display list on screen
 wait until user close the application
 end
-8.TECHNİCAL İMPLEMENTATİON
+##8.TECHNİCAL İMPLEMENTATİON
 PROGRAMMİNG LANGAGE:Dart(Flutter)
 CODE:
 class book{
@@ -51,7 +52,7 @@ class book{
   book(title: "Flutter basics",author:"Author A")
   book(title: "dart programming",author:"Author B"),
   ]
-  8.EXPLANATİON:
+  ##8.EXPLANATİON:
   The app is build using flutter and dart
   it runs on an android emulator or device
   the app displays a static list
@@ -60,18 +61,3 @@ class book{
 
 
 
-
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
