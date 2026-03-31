@@ -67,7 +67,6 @@ How can we display and manage a list of books in a simple mobil application?
 
 
 
-
 3##.OBJECTİVE OF THE PROJECT:
 The project aims to design a flutter mobile application that allows users to
 -Add and remove books,
