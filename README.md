@@ -268,10 +268,9 @@ L’objet du livre contient :
 
 
 - montrer tous les livres avec leurs détails -Continuez à afficher la liste
--
--
--
--
+
+
+
 -  - existent lorsque l’utilisateur ferme l’application PSEUDOCODE Départ Charger liste des livres afficher la liste à l’écran attendez que l’utilisateur ferme l’application Fin
 
 
