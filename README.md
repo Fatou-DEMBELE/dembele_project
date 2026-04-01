@@ -1,8 +1,225 @@
-## Getting Start1.PROJECT TİTLE.
-##1.PROJECT TİTLE.
+## Getting Start LİBRARY TRACKER1.
+1. TİTLE:
 Library Tracker
 
+2. PROBLEM STATEMENT:
 
+How can we display and manage a list of books in a simple mobile application?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3. PROJECT OBJECTIVE:
+
+The goal of the project is to design a Flutter mobile application that allows users to:
+
+Add and remove books
+Track borrowed and available books
+View the list of books and their status
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4. EXPECTED RESULT
+
+A functional Flutter application that demonstrates book management with an interactive user interface, ready to run on an Android device or emulator.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5. METHODOLOGY
+Problem-Solving Approach
+Launch the application
+The main screen automatically displays the list of books
+The application continuously shows the current books
+The application runs until the user closes it
+-MAIN COMPONENTS
+Input: None (the application runs automatically; the user does not enter any data)
+Processing: The application reads a predefined list of books and prepares it for display
+Output: The list of books is displayed on the main screen with details such as title, author, and status
+-DATA STRUCTURE AND MANIPULATION
+The Book object contains:
+Title
+Author
+Status
+Data is loaded once at application startup
+No user interaction modifies the data; it is display-only
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7. CONTROL FLOW EXAMPLE (Library Tracker)
+Start the application
+Load the predefined list of books
+Display the main screen
+Show all books with their details
+Continue displaying the list
+Exit when the user closes the application
+-PSEUDOCODE
+
+-Start
+Load list of books
+Display the list on the screen
+Wait until the user closes the application
+-End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8. TECHNICAL IMPLEMENTATION
+Programming Language
+
+Dart (with Flutter framework)
+
+Code Example
+class Book {
+  String title;
+  String author;
+
+  Book({required this.title, required this.author});
+}
+
+List<Book> books = [
+  Book(title: "Flutter Fundamentals", author: "Author A"),
+  Book(title: "Dart Programming", author: "Author B"),
+];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EXPLANATION
+
+The application is built using Flutter and Dart.
+It runs on an emulator or an Android device.
+The app displays a static list, and no user interaction is required.
+The interface demonstrates basic UI design and data display.
 
 
 
