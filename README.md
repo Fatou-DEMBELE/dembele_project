@@ -74,7 +74,11 @@
 
 
 
-3##. OBJET DU PROJET : Le projet vise à concevoir une application mobile Flutter qui permette aux utilisateurs de -Ajouter et retirer des livres, -Suivre les livres empruntés et disponibles, -Voir la liste des livres et leur statut.
+3##. OBJET DU PROJET : Le projet vise à concevoir une application mobile Flutter qui permette aux utilisateurs de 
+
+-Ajouter et retirer des livres, -Suivre les livres empruntés et disponibles,
+
+-Voir la liste des livres et leur statut.
 
 
 
@@ -162,7 +166,55 @@
 
 
 
-##5.MÉTHODOLOGIE : Approche de la résolution de problèmes : Lancer la demande L’écran principal affiche automatiquement la liste des livres L’application affiche en continu les livres en cours L’application fonctionne jusqu’à ce que l’utilisateur la ferme COMPOSANTS MAİN : İnput : Aucun (l’application s’exécute automatiquement, l’utilisateur ne saisit aucune donnée) Traitement : L’application lit la liste prédéfinie des livres et les prépare pour l’affichage Outpu : La liste des livres est affichée sur l’écran principal avec des détails tels que le titre, l’auteur et le statut DATA STRUCTURE ET MANİPULATİONA L’objet du livre contient : -Titre -Auteur -Statut Les données sont chargées une fois au démarrage de l’application Aucune interaction utilisateur ne modifie les données ; il n’est affiché qu’à l’affiche
+##5.MÉTHODOLOGIE : Approche de la résolution de problèmes : Lancer la demande L’écran principal affiche automatiquement la liste des livres L’application affiche en continu les livres en cours L’application fonctionne jusqu’à ce que l’utilisateur la ferme
+
+
+COMPOSANTS MAİN : İnput : Aucun (l’application s’exécute automatiquement, l’utilisateur ne saisit aucune donnée) Traitement : L’application lit la liste prédéfinie des livres et les prépare pour l’affichage
+
+Output : La liste des livres est affichée sur l’écran principal avec des détails tels que le titre, l’auteur et le statut 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DATA STRUCTURE ET MANİPULATİONA 
+
+
+L’objet du livre contient :
+
+
+
+-Titre -Auteur
+
+
+
+
+-Statut Les données sont chargées une fois au démarrage de l’application Aucune interaction utilisateur ne modifie les données ; il n’est affiché qu’à l’affiche
 
 
 
@@ -207,7 +259,20 @@
 
 
 
-##7.FLUX DE CONTRÔLE EXANPLE (Tracker de bibliothèque) : -Lance l’application - charger la liste prédéfinie des livres - afficher l’écran principal - montrer tous les livres avec leurs détails -Continuez à afficher la liste - existent lorsque l’utilisateur ferme l’application PSEUDOCODE Départ Charger liste des livres afficher la liste à l’écran attendez que l’utilisateur ferme l’application Fin
+##7.FLUX DE CONTRÔLE EXANPLE (Tracker de bibliothèque) : 
+
+
+
+-Lance l’application - charger la liste prédéfinie des livres - afficher l’écran principal
+
+
+
+- montrer tous les livres avec leurs détails -Continuez à afficher la liste
+-
+-
+-
+-
+-  - existent lorsque l’utilisateur ferme l’application PSEUDOCODE Départ Charger liste des livres afficher la liste à l’écran attendez que l’utilisateur ferme l’application Fin
 
 
 
